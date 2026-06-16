@@ -10,52 +10,6 @@
 
 using namespace std;
 
-class Aluno{
-    private: 
-        string nome;
-        float nota1;
-        float nota2;
-
-    public:
-
-    Aluno(string nome, float nota1, float nota2){
-        this -> nome = nome;
-        this -> nota1 = nota1;
-        this -> nota2 = nota2;
-    }
-
-    double calcularMedia(){
-        return((nota1 + nota2)/2);
-    }
-
-    void mostrarResultado(){
-        double media = calcularMedia();
-
-        cout << "Aluno: " << this -> nome << endl;
-        cout << "Média: " << media << endl;
-     
-        if(media >= 7.0){
-            cout << "Situação: Aprovado" << endl;
-        } else {
-            cout << "Situação: Reprovado" << endl;
-        }
-
-    }
-};
-
-int main(){
-    Aluno aluno1("Rafael", 6, 9);
-
-    aluno1.mostrarResultado();
-
-    return 0;
-}
-
-#include <iostream>
-#include <string>
-
-using namespace std;
-
 class ContaBancaria {
     private:
         string titular;
