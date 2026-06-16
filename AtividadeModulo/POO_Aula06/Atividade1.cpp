@@ -1,3 +1,10 @@
+/*
+ Aula 6 - 15/06/2026
+ Linguagem de Programação C++
+ Profa. Erika Dilly
+ Vetores e Orientação a objetos em C++
+*/
+
 #include <iostream>
 
 using namespace std;
