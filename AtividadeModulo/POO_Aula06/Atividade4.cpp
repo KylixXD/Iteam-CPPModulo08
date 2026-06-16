@@ -33,6 +33,12 @@ class Aluno{
 
         cout << "Aluno: " << this -> nome << endl;
         cout << "Média: " << media << endl;
+     
+        if(media >= 7.0){
+            cout << "Situação: Aprovado" << endl;
+        } else {
+            cout << "Situação: Reprovado" << endl;
+        }
 
     }
 };
